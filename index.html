@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <title>Technical Documentation</title>
+</head>
+
+<body>
+
+
+
+  <aside class="aside ">
+
+    <div class="aside-title">
+
+      <h2>Manual</h2>
+      <h3>Getting Started</h3>
+    </div>
+
+    <div>
+      <ul class="aside-list">
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#css-home">CSS HOME</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#css-introduction">CSS Introduction</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#css-syntax">CSS Syntax</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#css-selectors">CSS Selectors</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#how-to">CSS How To</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#comments">CSS Comments</a></li>
+        <li class='navbar-lists
+            '> <a class='navbar-links' href="#colors">CSS Colors</a></li>
+      </ul>
+    </div>
+
+    <div class="burguer-container">
+      <div class="burguer-line"></div>
+    </div>
+
+  </aside>
+
+
+  <main>
+    <section class="css-home" id="css-home">
+      <div class="container">
+        <h1>CSS Tutorial</h1>
+        <p>CSS is the language we use to style an HTML document.</p>
+        <p>CSS describes how HTML elements should be displayed.</p>
+        <p>This tutorial will teach you CSS from basic to advanced.</p>
+        <hr>
+        <h2>Examples in Each Chapter</h2>
+        <p>This CSS tutorial contains hundreds of CSS examples.</p>
+        <p>With our online editor, you can edit the CSS, and click on a button to view the result.</p>
+        <pre>
+          <code>
+            body {
+            background-color: lightblue;
+            }
+
+            h1 {
+            color: white;
+            text-align: center;
+            }
+
+            p {
+            font-family: verdana;
+            font-size: 20px;
+            }</code>
+        </pre>
+        <hr>
+        <h2>CSS Examples</h2>
+        <p>Learn from over 300 examples! With our editor, you can edit the CSS, and click on a button to view the
+          result.</p>
+        <a class="btn-examples" href="https://www.w3schools.com/css/css_examples.asp">Go to CSS Examples!</a>
+
+        <hr>
+        <h2>Use the Menu</h2>
+        <p>We recommend reading this tutorial, in the sequence listed in the menu.</p>
+        <p>If you have a large screen, the menu will always be present on the left.</p>
+        <hr>
+        <h2>CSS Templates</h2>
+        <p>We have created some responsive W3.CSS templates for you to use.</p>
+        <p>You are free to modify, save, share, and use them in all your projects.</p>
+      </div>
+    </section>
+
+
+
+    <section class="css-introduction" id="css-introduction">
+      <div class="container">
+        <h1>CSS Introduction</h1>
+        <a href="#css-home" class="btn-left">Previous</a>
+        <a href="#css-syntax" class="btn-right">Next</a>
+
+        <hr>
+        <p>CSS is the language we use to style a Web page.</p>
+        <hr>
+        <h2>What is CSS?</h2>
+        <ul>
+          <li>CSS stands for Cascading Style Sheets</li>
+          <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+          <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+          <li>External stylesheets are stored in CSS files</li>
+        </ul>
+        <hr>
+        <h2>Why Use CSS?</h2>
+        <p>CSS is used to define styles for your web pages, including the design, layout and variations in display for
+          different devices and screen sizes.</p>
+        <pre>
+          <h3>CSS Example</h3>
+          <code>
+            body {
+            background-color: lightblue;
+            }
+
+            h1 {
+            color: white;
+            text-align: center;
+            }
+
+            p {
+            font-family: verdana;
+            font-size: 20px;
+            }
+          </code>
+        </pre>
+        <h2>CSS Solved a Big Problem</h2>
+        <p>HTML was NEVER intended to contain tags for formatting a web page!</p>
+        <p>HTML was created to describe the content of a web page, like:</p>
+        <p>To solve this problem, the World Wide Web Consortium (W3C) created CSS.</p>
+        <p>CSS removed the style formatting from the HTML page!</p>
+        <hr>
+        <h2>CSS Saves a Lot of Work!</h2>
+        <p>The style definitions are normally saved in external .css files.</p>
+        <p>With an external stylesheet file, you can change the look of an entire website by changing just one file!</p>
+        <a href="#css-introduction" class="btn-left">Previous</a>
+        <a href="#css-selectors" class="btn-right">Next</a>
+      </div>
+    </section>
+
+
+
+    <section class="css-syntax" id="css-syntax">
+      <div class="container">
+        <h1>CSS Syntax</h1>
+
+        <a href="#css-introduction" class="btn-left">Previous</a>
+        <a href="#css-selectors" class="btn-right">Next</a>
+        <p>A CSS rule consists of a selector and a declaration block.</p>
+        <h2>CSS Syntax</h2>
+        <img src="https://www.w3schools.com/css/img_selector.gif" alt="css-syntax-w3school">
+        <p>The selector points to the HTML element you want to style.</p>
+        <p>The declaration block contains one or more declarations separated by semicolons.</p>
+        <p>Each declaration includes a CSS property name and a value, separated by a colon.</p>
+        <p>Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly
+          braces.</p>
+        <pre>
+          <h3>Example</h3>
+          <p>In this example all &lt;p&gt; elements will be center-aligned, with a red text color:</p>
+          <code>
+            p {
+            color: red;
+            text-align: center;
+            }
+          </code>
+        </pre>
+
+        <h4>Example Explained</h4>
+        <ul>
+          <li>p is a selector in CSS (it points to the HTML element you want to style: &lt;p&gt;).</li>
+          <li>color is a property, and red is the property value</li>
+          <li>text-align is a property, and center is the property value</li>
+        </ul>
+
+        <a href="#" class="btn-left">Previous</a>
+        <a href="#" class="btn-right">Next</a>
+
+      </div>
+    </section>
+
+
+
+
+    <section class="css-selectors" id="css-selectors">
+      <div class="container">
+        <h1>CSS Selectors</h1>
+        <a href="#css-syntax" class="btn-left">Previous</a>
+        <a href="#how-to" class="btn-right">Next</a>
+        <hr>
+        <p>A CSS selector selects the HTML element(s) you want to style.</p>
+        <hr>
+        <h2>CSS Selectors</h2>
+        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+        <p>We can divide CSS selectors into five categories:</p>
+        <ul>
+          <li>Simple selectors (select elements based on name, id, class)</li>
+          <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+          <li>Pseudo-class selectors (select elements based on a certain state)</li>
+          <li>Pseudo-elements selectors (select and style a part of an element)</li>
+          <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+        <p>This page will explain the most basic CSS selectors.</p>
+        <hr>
+        <h2>The CSS element Selector</h2>
+        <p>The element selector selects HTML elements based on the element name.</p>
+        <pre>
+          <h3>Example</h3>
+          <p>Here, all &lt;p&gt; elements on the page will be center-aligned, with a red text color:</p>
+          <code>
+            p {
+            text-align: center;
+            color: red;
+            }
+
+          </code>
+        </pre>
+        <h2>The CSS id Selector</h2>
+        <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+        <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+        <p>To select an element with a specific id, write a hash (#) character, followed by the id of the element.</p>
+        <pre>
+          <h3>Example</h3>
+          <p>The CSS rule below will be applied to the HTML element with id="para1":</p>
+          <code>
+            #para1 {
+            text-align: center;
+            color: red;
+            }
+          </code>
+        </pre>
+
+        <hr>
+
+        <h2>The CSS class Selector</h2>
+        <p>The class selector selects HTML elements with a specific class attribute.</p>
+        <p>To select elements with a specific class, write a period (.) character, followed by the class name.</p>
+        <pre>
+          <h3>Example</h3>
+          <p>In this example all HTML elements with class="center" will be red and center-aligned:</p>
+          <code>
+            .center {
+            text-align: center;
+            color: red;
+            }
+          </code>
+        </pre>
+        <h2>The CSS Universal Selector</h2>
+        <p>The universal selector (*) selects all HTML elements on the page.</p>
+        <pre>
+          <h3>
+            Example
+          </h3>
+          <p>The CSS rule below will affect every HTML element on the page:</p>
+          <code>
+            * {
+            text-align: center;
+            color: blue;
+            }
+          </code>
+        </pre>
+
+
+        <h2>The CSS Grouping Selector</h2>
+        <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+        <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):</p>
+
+        <pre>
+          <code>
+            h1 {
+            text-align: center;
+            color: red;
+            }
+
+            h2 {
+            text-align: center;
+            color: red;
+            }
+
+            p {
+            text-align: center;
+            color: red;
+            }
+          </code>
+        </pre>
+
+        <p>It will be better to group the selectors, to minimize the code.</p>
+        <p>To group selectors, separate each selector with a comma.</p>
+
+        <pre>
+          <h3>Example</h3>
+          <p>In this example we have grouped the selectors from the code above:</p>
+          <code>
+            h1, h2, p {
+            text-align: center;
+            color: red;
+            }
+          </code>
+        </pre>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <section class="how-to" id="how-to">
+      <div class="container">
+        <h1>How To Add CSS</h1>
+        <a href="#css-selectors" class="btn-left">Previous</a>
+        <a href="#comments" class="btn-right">Next</a>
+        <hr>
+        <p>When a browser reads a style sheet, it will format the HTML document according to the information in the
+          style sheet.</p>
+        <hr>
+
+
+        <h2>Three Wats to Insert CSS</h2>
+        <p>There are three ways of inserting a style sheet:</p>
+        <ul>
+          <li>External CSS</li>
+          <li>Internal CSS</li>
+          <li>Inline CSS</li>
+        </ul>
+        <hr>
+        <h2>External CSS</h2>
+        <p>With an external style sheet, you can change the look of an entire website by changing just one file!</p>
+        <p>Each HTML page must include a reference to the external style sheet file inside the
+          <link> element, inside the head section.
+        </p>
+
+
+        <pre>
+          <h3>Example</h3>
+          <p>External styles are defined within the &lt;link&gt; element, inside the &lt;head&gt; section of an HTML
+            page:</p>
+          <code>
+            &lt!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;link rel="stylesheet" href="mystyle.css"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+
+            &lt;h1&gt;This is a heading&lt;/h1&gt;
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+          </code>
+        </pre>
+        <p>An external style sheet can be written in any text editor, and must be saved with a .css extension.</p>
+        <p>The external .css file should not contain any HTML tags.</p>
+        <p>Here is how the "mystyle.css" file looks:</p>
+        <pre>
+          <h3>"mystyle.css"</h3>
+          <code>
+            body {
+            background-color: lightblue;
+            }
+
+            h1 {
+            color: navy;
+            margin-left: 20px;
+            }
+          </code>
+        </pre>
+
+        <h2>Internal CSS</h2>
+        <p>An internal style sheet may be used if one single HTML page has a unique style.</p>
+        <p>The internal style is defined inside the &lt;style&gt; element, inside the head section.</p>
+
+        <pre>
+          <h3>Example</h3>
+          <p>Internal styles are defined within the &lt;style&gt; element, inside the &lt;head&gt; section of an HTML
+            page:</p>
+          <code>
+
+            &lt!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;style&gt;
+            body {
+            background-color: linen;
+            }
+
+            h1 {
+            color: maroon;
+            margin-left: 40px;
+            }
+            &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+
+            &lt;h1&gt;This is a heading&lt;/h1&gt;
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+          </code>
+        </pre>
+        <hr>
+        <h2>Inline CSS</h2>
+        <p>An inline style may be used to apply a unique style for a single element.</p>
+        <p>To use inline styles, add the style attribute to the relevant element. The style attribute can contain any
+          CSS property.</p>
+
+
+        <pre>
+          <h3>Example</h3>
+          <p>Inline styles are defined within the "style" attribute of the relevant element:</p>
+          <code>
+
+            &lt!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;body&gt;
+
+            &lt;h1 style="color:blue;text-align:center;"&gt;This is a heading&lt;/h1&gt;
+            &lt;p style="color:red;"&gt;This is a paragraph.&lt;&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+
+          </code>
+        </pre>
+
+
+
+
+      </div>
+    </section>
+
+
+
+
+
+    <section id="comments" class="comments">
+      <div class="container">
+        <h1>CSS Comments</h1>
+
+        <a href="#how-to" class="btn-left">Previous</a>
+        <a href="#colors" class="btn-right">Next</a>
+        <hr>
+        <p>CSS comments are not displayed in the browser, but they can help document your source code.</p>
+        <hr>
+        <h2>CSS Comments</h2>
+        <p>Comments are used to explain the code, and may help when you edit the source code at a later date.</p>
+        <p>Comments are ignored by browsers.</p>
+        <p>A CSS comment is placed inside the &lt;style&gt; element, and starts with /* and ends with */:</p>
+
+        <pre>
+          <h3>Example</h3>
+          <code>
+            /* This is a single-line comment */
+            p {
+            color: red;
+            }
+          </code>
+        </pre>
+
+        <p>You can add comments wherever you want in the code:</p>
+        <pre>
+          <h3>Example</h3>
+          <code>
+            p {
+            color: red; /* Set text color to red */
+            }
+          </code>
+        </pre>
+
+        <p>Comments can also span multiple lines:</p>
+        <pre>
+          <h3>Example</h3>
+          <code>
+            /* This is
+            a multi-line
+            comment */
+
+            p {
+            color: red;
+            }
+          </code>
+        </pre>
+
+
+        <hr>
+        <hr>
+
+        <h2>HTML and CSS Comments</h2>
+        <p>From the HTML tutorial, you learned that you can add comments to your HTML source by using the
+          <!--...--> syntax.
+        </p>
+        <p>In the following example, we use a combination of HTML and CSS comments:</p>
+
+        <pre>
+          <h3>Example</h3>
+          <code>
+
+            &lt!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lthead&gt;
+            &lt;style&gt;
+            p {
+            color: red; /* Set text color to red */
+            }
+            &lt;/style&gt;
+            &lt;body&gt;
+
+
+            &lt;h2&gt;My Heading&lt;/h2&gt;
+
+            <!-- These paragraphs will be red -->
+            &lt;p&gt;Hello World!&lt;/p&gt;
+            &lt;p&gt;This paragraph is styled with CSS.&lt;/p&gt;
+            &lt;p&gt;CSS comments are not shown in the output.&lt;/p&gt;
+
+            &lt;/body&gt;
+            &lt;/html&gt;
+
+          </code>
+        </pre>
+
+
+
+        <a href="#how-to" class="btn-left">Previous</a>
+        <a href="#colors" class="btn-right">Next</a>
+
+
+
+
+
+      </div>
+
+    </section>
+
+
+    <section class="colors" id="colors">
+      <div class="container">
+        <h1>CSS Colors</h1>
+        <a href="#comments" class="btn-left">Previous</a>
+        <hr>
+        <p>Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.</p>
+        <hr>
+        <h2>CSS Colors Names</h2>
+        <p>In CSS, a color can be specified by using a predefined color name:</p>
+        <div class="colors-container">
+          <div style="background-color:tomato;">Tomato</div>
+          <div style="background-color:dodgerblue;">DodgerBlue</div>
+          <div style="background-color:gray;">Gray</div>
+          <div style="background-color:orange;">Orange</div>
+          <div style="background-color:violet;">Violet</div>
+          <div style="background-color:mediumseagreen;">MediumSeaGreen</div>
+          <div style="background-color:slateblue;">SlateBlue</div>
+          <div style="background-color:lightgray;color:#444444">LightGray</div>
+        </div>
+
+        <hr>
+        <h2>CSS Background Color</h2>
+        <p>You can set the background color for HTML elements:</p>
+        <div style='background-color:dodgerblue; text-align:center;color:white;font-size:24px;'>
+          Hello World
+        </div>
+        <div style="background-color:tomato;color:white;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+          diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+          veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+        </div>
+        <pre>
+          <h3>Example</h3>
+          <code>
+            <h1 style="background-color:DodgerBlue;">Hello World</h1>
+            <p style="background-color:Tomato;">Lorem ipsum...</p>
+          </code>
+        </pre>
+
+
+        <hr>
+        <h2>CSS Text Color</h2>
+        <p>You can set the color of text:</p>
+
+        <h3 style="color:tomato"></h3>
+        <p style="color: dodgerblue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+          euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p style="color: mediumSeaGreen">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+
+        <pre>
+          <h3>Example</h3>
+          <code>
+            <h1 style="color:Tomato;">Hello World</h1>
+            <p style="color:DodgerBlue;">Lorem ipsum...</p>
+            <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+          </code>
+        </pre>
+
+        <hr>
+        <hr>
+
+        <h2>CSS Border Color</h2>
+        <p>You can set the color of borders:</p>
+        <h2 style="border: 2px solid Tomato;">Hello World</h2>
+        <h2 style="border: 2px solid DodgerBlue;">Hello World</h2>
+        <h2 style="border: 2px solid Violet;">Hello World</h2>
+
+        <pre>
+          <h3>Example</h3>
+          <code>
+            <h1 style="border:2px solid Tomato;">Hello World</h1>
+            <h1 style="border:2px solid DodgerBlue;">Hello World</h1>
+            <h1 style="border:2px solid Violet;">Hello World</h1>
+          </code>
+        </pre>
+        <hr>
+        <h2>CSS Color Values</h2>
+        <p>In CSS, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values:
+        </p>
+        <p>Same as color name "Tomato":</p>
+        <div class="value-colors-container"
+          style="line-height:60px;color:white;font-size:20px;font-weight:bold;font-family:Consolas, 'Courier New', Courier, monospace">
+          <div style="background-color:rgb(255, 99, 71);margin:10px 0;">rgb(255, 99, 71)</div>
+          <div style="background-color:#ff6347;margin:10px 0;">#ff6347</div>
+          <div style="background-color:hsl(9, 100%, 64%);margin:10px 0;">hsl(9, 100%, 64%)</div>
+        </div>
+        <p>Same as color name "Tomato", but 50% transparent:</p>
+
+        <div class="value-colors-container">
+          <div>rgba(255, 99, 71, 0.5)</div>
+          <div>hsla(9, 100%, 64%, 0.5)</div>
+        </div>
+
+
+        <pre>
+          <h3>Example</h3>
+          <code>
+            &lt;h1 style="background-color:rgb(255, 99, 71);"&gt;...&lt;/h1&gt;
+            &lt;h1 style="background-color:#ff6347;"&gt;...&lt;/h1&gt;
+            &lt;h1 style="background-color:hsl(9, 100%, 64%);"&gt;...&lt;/h1&gt;
+
+            &lt;h1 style="background-color:rgba(255, 99, 71, 0.5);"&gt;...&lt;/h1/&gt;
+            &lt;h1 style="background-color:hsla(9, 100%, 64%, 0.5);"&gt;...&lt;/h1&gt;
+
+          </code>
+        </pre>
+
+      </div>
+
+    </section>
+
+
+
+  </main>
+
+
+
+
+
+  <script>
+    const allLinks = document.querySelectorAll('a:link')
+
+    allLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        if (href !== '#' && href.startsWith('#')) {
+          const sectionEl = document.querySelector(href)
+          sectionEl.scrollIntoView({behavior: 'smooth'})
+        }
+
+      })
+    })
+
+    /* BURGUER */
+    const burguerContainer = document.querySelector('.burguer-container')
+    const navbarLinks = document.querySelectorAll('.navbar-links')
+    const asideMenu = document.querySelector('.aside')
+
+    let isBurguerOpen = false;
+
+    if (!isBurguerOpen) {
+      burguerContainer.addEventListener('click', () => {
+
+        asideMenu.classList.toggle('open');
+        isBurguerOpen = true;
+      })
+    } else {
+      asideMenu.classList.remove('open')
+      isBurguerOpen = false;
+    }
+
+
+    navbarLinks.forEach((links) => {
+      links.addEventListener('click', (e) => {
+        asideMenu.classList.remove('open')
+      })
+
+    })
+
+    /* CLOSE ON DOCUMENT CLICK */
+    document.onclick = function (e) {
+      if (!e.target.classList.contains('aside-list') && !e.target.classList.contains('burguer-container') && !e.target.classList.contains('burguer-line') && !e.target.classList.contains('navbar-lists')) {
+        asideMenu.classList.remove('open')
+      }
+    }
+
+  </script>
+
+
+</body>
+
+</html>
